@@ -1,8 +1,16 @@
 import Image from "next/image";
+import Navbar from '@/components/navbar/Navbar'
+import Footer from '@/components/footer/Footer'
+
 
 const About = () => {
-    return (
 
+  const isNavbarVisible = true;
+  const isFooterVisible = true;
+
+    return (
+      <section>
+        <Navbar isVisible={isNavbarVisible} />
       <section className="sec_about">
         <h1 className="mx-2 mb-5">À Propos de Safa Jet</h1>
 
@@ -19,7 +27,6 @@ const About = () => {
               pour répondre à vos besoins créatifs et commerciaux. Explorez notre palette de services 
               exceptionnels qui transcendent les attentes.
             </p>
-            
           </div>
         </div>
 
@@ -81,21 +88,23 @@ const About = () => {
           </div>
           <div className="about-img">
             <div>
-            <Image
-              src="/about1.jpg"
-              width={600}
-              height={350}
-              className="mb-5"
-              alt="c'est moi"
-            />
-            </div>
-            <div>
-            <Image
-              src="/about2.jpg"
-              width={600}
-              height={350}
-              alt="c'est moi"
-            />
+              <Image
+                src="/about1.jpg"
+                width={600}
+                height={350}
+                className="mb-5"
+                id="about-img1"
+                alt="c'est moi"
+              />
+              </div>
+            <div className="about-img1">
+              <Image
+                src="/about2.jpg"
+                width={600}
+                height={350}
+                id="about-img1"
+                alt="c'est moi"
+              />
             </div>
           </div>
         </div>
@@ -130,11 +139,12 @@ const About = () => {
           <div data-mdb-input-init class="form-outline mb-4  border-primary-subtle">
             <textarea class="form-control" id="form6Example7" rows="4" placeholder="Votre message"></textarea>
           </div>
-          <button data-mdb-ripple-init type="button" class="btn btn-primary mb-4">Envoyer</button>
+          <button data-mdb-ripple-init type="button" class="btn btn-primary mb-4 rounded">Envoyer</button>
         </form>
 
       </section>
-
+      <Footer isVisible={isFooterVisible} />
+</section>
     );
   };
   
