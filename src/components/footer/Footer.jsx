@@ -96,10 +96,6 @@ const Footer = ({ isVisible }) => {
           
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
               <ul className="list-unstyled">
-                <div className="form-outline form-white mb-4">
-                  <label className="form-label fs-5 fw-bold" for="typeEmailX1">Email</label>
-                  <input type="email" id="typeEmailX1" class="form-control" placeholder="Votre adresse emil"/>
-                </div>
                 <li>
                 <div>
                     <h5>Suivez-nous</h5>

@@ -12,6 +12,7 @@ const Contact = () => {
   return (
     <section>
     <Navbar isVisible={isNavbarVisible} />
+    <button type="button" href="/" className="btn1 text-white">RETOUR</button>
     <section className="gradient-form vh-100" id="sectioncont">
     <div className="container py-5 pt-5">
       <div className="row">
