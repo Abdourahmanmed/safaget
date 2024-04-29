@@ -22,7 +22,7 @@ const Service = () => {
           />
         </div>
         <div className="service-1">
-          <h1>Nos Services d'Impression Numérique</h1>
+          <h1 className="text-orange">Nos Services d'Impression Numérique</h1>
           <p>
             Découvrez l'art de l'impression numérique chez Safa Jet. De la grandeur des
             impressions grand format à la personnalisation minutieuse de chaque

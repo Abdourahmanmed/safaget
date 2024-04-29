@@ -27,9 +27,10 @@ const Navbar =({ isVisible,Accueil}) => {
     const navbarStyle = {
       backgroundColor: scrollPosition > 100 ? 'white' : 'transparent', // Changez la couleur et la position de défilement comme nécessaire
       transition: 'background-color 0.3s ease',
+      colore:'orange',
     };
     return (
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm  p-2 text-dark bg-opacity-10" style={navbarStyle}>
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top  p-2 text-dark bg-opacity-10" style={navbarStyle}>
             <div className="container-fluid">
               <div className="d-flex align-items-center justify-content-between mb-2 pb-1">
                 <i className="fas fa-cubes fa-2x me-4"></i>
@@ -48,22 +49,22 @@ const Navbar =({ isVisible,Accueil}) => {
                 <div className='nav-res'>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className={`nav-link active ${scrollPosition?'text-white' : 'text-warning'} fw-bold`} aria-current="page" href="/">Accueil</a>
+                            <a className={`nav-link active ${Accueil?'text-white' : 'text-warning'}  fw-bold`} aria-current="page" href="/">Accueil</a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link active text-white fw-bold" aria-current="page" href="/about">A propos</a>
+                          <a className={`nav-link active ${Accueil?'text-white' : 'text-warning'} fw-bold`} aria-current="page" href="/about">A propos</a>
                           </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white fw-bold" href="/service">Service</a>
+                            <a className={`nav-link active ${Accueil?'text-white' : 'text-warning'} fw-bold`} href="/service">Service</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white fw-bold" href="/contact">Contact</a>
+                            <a className={`nav-link active ${Accueil?'text-white' : 'text-warning'} fw-bold`} href="/contact">Contact</a>
                         </li>
                         {/* <li className="nav-item">
                             <a  href="/contact" className="btn btn-dark" role="button">Rejoin nous</a>
                         </li>  */}
                     </ul>
-                    <a  href="/contact" className="btn btn-dark" role="button">Rejoin nous</a>
+                    <a  href="/contact" className="btn btn-orange" role="button">Obtenir un device</a>
                 </div>
                 </div>
             </div>
