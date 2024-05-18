@@ -36,8 +36,8 @@ const Navbar =({ isVisible,Accueil,Acolore}) => {
               <i className="fas fa-cubes fa-2x me-4"></i>
               <span className="h2 fw-bold mb-0 text-white">
                 <Image
-                  src="/safajet.png"
-                  width={100}
+                  src={`${scrollPosition?"/logo_2.png":"/logo_2_blanc.png"}`}
+                  width={200}
                   height={50}
                 />
               </span>
@@ -78,8 +78,8 @@ const Navbar =({ isVisible,Accueil,Acolore}) => {
               <i className="fas fa-cubes fa-2x me-4"></i>
               <span className="h2 fw-bold mb-0 text-white">
                 <Image
-                  src="/safajet.png"
-                  width={100}
+                  src="/logo_2.png"
+                  width={200}
                   height={50}
                 />
               </span>

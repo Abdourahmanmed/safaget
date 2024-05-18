@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import Form from "@/components/form/Form";
 
 const Service = () => {
   const isNavbarVisible = true;
@@ -54,7 +55,7 @@ const Service = () => {
               Impressions Grand Format
             </h3>
             <div className="row gap-3 d-flex align-items-center justify-content-center">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service16.jpg"
                   width={350}
@@ -78,7 +79,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service17.jpg"
                   width={350}
@@ -102,7 +103,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service20.jpg"
                   width={350}
@@ -128,7 +129,7 @@ const Service = () => {
               </div>
             </div>
             <div className="row gap-3 d-flex align-items-center justify-content-center mt-4">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service18.jpg"
                   width={350}
@@ -152,7 +153,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3  hoverContainer">
                 <Image
                   src="/service19.jpg"
                   width={350}
@@ -175,7 +176,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service21.jpg"
                   width={350}
@@ -206,7 +207,7 @@ const Service = () => {
               Imprimés Personnalisés
             </h3>
             <div className="row gap-3 d-flex align-items-center justify-content-center">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service10.jpg"
                   width={350}
@@ -230,7 +231,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service13.jpg"
                   width={350}
@@ -253,7 +254,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service12.jpg"
                   width={350}
@@ -279,7 +280,7 @@ const Service = () => {
               </div>
             </div>
             <div className="row gap-3 d-flex align-items-center justify-content-center mt-4">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service11.jpg"
                   width={350}
@@ -303,7 +304,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service14.jpg"
                   width={350}
@@ -327,7 +328,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service15.jpg"
                   width={350}
@@ -358,7 +359,7 @@ const Service = () => {
               Produits Promotionnels
             </h3>
             <div className="row gap-3 d-flex align-items-center justify-content-center">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service4.jpg"
                   width={350}
@@ -382,7 +383,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service5.jpg"
                   width={350}
@@ -406,7 +407,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service6.jpg"
                   width={350}
@@ -431,7 +432,7 @@ const Service = () => {
               </div>
             </div>
             <div className="row gap-3 d-flex align-items-center justify-content-center">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service7.jpg"
                   width={350}
@@ -454,7 +455,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service9.jpg"
                   width={350}
@@ -478,7 +479,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service8.jpg"
                   width={350}
@@ -509,7 +510,7 @@ const Service = () => {
               Design Graphique et Personnalisation
             </h3>
             <div className="row gap-3 d-flex align-items-center justify-content-center">
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service2.jpg"
                   width={350}
@@ -534,7 +535,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service1.jpg"
                   width={350}
@@ -559,7 +560,7 @@ const Service = () => {
                   </h5>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-3">
+              <div className="col-sm-12 col-md-12 col-lg-3 hoverContainer">
                 <Image
                   src="/service3.jpg"
                   width={350}
@@ -588,88 +589,9 @@ const Service = () => {
           </div>
         </div>
       </div>
-
-      <form
-        className="shadow-lg p-3 mb-5 bg-body-tertiary rounded mb-50 container"
-        id="formcom"
-      >
-        <h4 className="text-orange text-uppercase pb-4">envoyer un message</h4>
-        <div className="row mb-4">
-          <div className="col">
-            <div
-              data-mdb-input-init
-              class="form-outline  border-primary-subtle"
-            >
-              <input
-                type="text"
-                id="form6Example1"
-                className="form-control"
-                placeholder="Nom"
-              />
-            </div>
-          </div>
-          <div className="col">
-            <div
-              data-mdb-input-init
-              class="form-outline  border-primary-subtle"
-            >
-              <input
-                type="text"
-                id="form6Example2"
-                class="form-control"
-                placeholder="Prenom"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="row mb-4">
-          <div className="col">
-            <div
-              data-mdb-input-init
-              class="form-outline  border-primary-subtle"
-            >
-              <input
-                type="text"
-                id="form6Example1"
-                className="form-control"
-                placeholder="Telephone"
-              />
-            </div>
-          </div>
-          <div className="col">
-            <div
-              data-mdb-input-init
-              class="form-outline  border-primary-subtle"
-            >
-              <input
-                type="text"
-                id="form6Example2"
-                class="form-control"
-                placeholder="Adresse email"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          data-mdb-input-init
-          class="form-outline mb-4  border-primary-subtle"
-        >
-          <textarea
-            class="form-control"
-            id="form6Example7"
-            rows="4"
-            placeholder="Votre message"
-          ></textarea>
-        </div>
-        <button
-          data-mdb-ripple-init
-          type="button"
-          class="btn btn-orange mb-4 rounded"
-        >
-          Envoyer
-        </button>
-      </form>
+      <div className="mb-50 container">
+        <Form />
+      </div>
 
       <Footer isVisible={isFooterVisible} />
     </section>

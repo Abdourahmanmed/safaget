@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
+import Form from "@/components/form/Form";
 
 const About = () => {
   const isNavbarVisible = true;
@@ -109,89 +110,9 @@ const About = () => {
           </div>
         </div>
 
-        <form
-          className="shadow-lg p-3 bg-body-tertiary rounded mb-50 "
-          id="formcom"
-        >
-          <h4 className="text-orange text-uppercase pb-4">
-            envoyer un message
-          </h4>
-          <div className="row mb-4">
-            <div className="col">
-              <div
-                data-mdb-input-init
-                class="form-outline  border-primary-subtle"
-              >
-                <input
-                  type="text"
-                  id="form6Example1"
-                  className="form-control"
-                  placeholder="Nom"
-                />
-              </div>
-            </div>
-            <div className="col">
-              <div
-                data-mdb-input-init
-                class="form-outline  border-primary-subtle"
-              >
-                <input
-                  type="text"
-                  id="form6Example2"
-                  class="form-control"
-                  placeholder="Prenom"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="row mb-4">
-            <div className="col">
-              <div
-                data-mdb-input-init
-                class="form-outline  border-primary-subtle"
-              >
-                <input
-                  type="text"
-                  id="form6Example1"
-                  className="form-control"
-                  placeholder="Telephone"
-                />
-              </div>
-            </div>
-            <div className="col">
-              <div
-                data-mdb-input-init
-                class="form-outline  border-primary-subtle"
-              >
-                <input
-                  type="text"
-                  id="form6Example2"
-                  class="form-control"
-                  placeholder="Adresse email"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            data-mdb-input-init
-            class="form-outline mb-4  border-primary-subtle"
-          >
-            <textarea
-              class="form-control"
-              id="form6Example7"
-              rows="4"
-              placeholder="Votre message"
-            ></textarea>
-          </div>
-          <button
-            data-mdb-ripple-init
-            type="button"
-            class="btn btn-orange mb-4 rounded"
-          >
-            Envoyer
-          </button>
-        </form>
+        <div className="mb-50 container">
+          <Form />
+        </div>
       </section>
       <Footer isVisible={isFooterVisible} />
     </section>

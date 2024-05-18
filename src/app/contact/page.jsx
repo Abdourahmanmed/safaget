@@ -2,12 +2,14 @@ import Image from "next/image";
 import React from 'react';
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
+import Form from "@/components/form/Form";
 
 
 const Contact = () => {
 
   const isNavbarVisible = false;
   const isFooterVisible = false;
+  const contact = true;
 
   return (
     <section>
@@ -25,35 +27,7 @@ const Contact = () => {
                 aider à concrétiser vos idées et à surpasser vos attentes
               </p>
             </div>
-            <form className="p-5">
-
-              <div className="form-outline mb-4">
-                <input type="text" id="form2Example11" class="form-control border-orange"
-                  placeholder="Nom et Prenom" required />
-              </div>
-
-              <div className="form-outline mb-4">
-                <input type="text" id="form2Example11" class="form-control border-orange"
-                  placeholder="Nom de l'entreprise" required />
-              </div>
-
-              <div className="form-outline mb-4">
-                <input type="tel" id="form2Example11" class="form-control border-orange"
-                  placeholder="Numéro de téléphone" required />
-              </div>
-
-              <div className="form-outline mb-4">
-                <input type="email" id="form2Example11" class="form-control border-orange"
-                  placeholder="Adresse email" required />
-              </div>
-
-              <div data-mdb-input-init class="form-outline mb-4  border-primary-subtle">
-                <textarea class="form-control border-orange" id="form6Example7" rows="4" placeholder="Parlez-nous de vote demande"></textarea>
-              </div>
-
-              <button data-mdb-ripple-init type="button" class="btn btn-orange w-100 mb-4 rounded">Envoyer</button>
-
-            </form>
+           <Form contact={contact} />
 
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6 gradient-orange d-flex align-items-center">
